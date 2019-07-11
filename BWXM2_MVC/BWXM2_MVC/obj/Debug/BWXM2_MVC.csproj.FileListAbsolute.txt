@@ -80,3 +80,4 @@ C:\Users\Administrator\Desktop\6.28\新项目\新建文件夹 (2)\BWXM2_MVC\BWXM
 C:\Users\Administrator\Desktop\6.28\新项目\新建文件夹 (2)\BWXM2_MVC\BWXM2_MVC\obj\Debug\BWXM2_MVC.csproj.CopyComplete
 C:\Users\Administrator\Desktop\6.28\新项目\新建文件夹 (2)\BWXM2_MVC\BWXM2_MVC\obj\Debug\BWXM2_MVC.dll
 C:\Users\Administrator\Desktop\6.28\新项目\新建文件夹 (2)\BWXM2_MVC\BWXM2_MVC\obj\Debug\BWXM2_MVC.pdb
+C:\Users\Administrator\Desktop\6.28\新项目\新建文件夹 (2)\BWXM2_MVC\BWXM2_MVC\obj\Debug\BWXM2_MVC.csprojAssemblyReference.cache

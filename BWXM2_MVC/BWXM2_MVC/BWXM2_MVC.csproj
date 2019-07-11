@@ -127,9 +127,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="html页面\index.html" />
     <Content Include="html页面\WMJJ_Login.html" />
     <Content Include="html页面\WMJJ_Personal_Center.html" />
-    <Content Include="html页面\WMJJ_Timed_Specials.html" />
+    <Content Include="html页面\WMJJ_ShowProductList.html" />
     <Content Include="html页面\WMJJ_About.html" />
     <Content Include="html页面\WMJJ_Codes.html" />
     <Content Include="html页面\WMJJ_Contact.html" />

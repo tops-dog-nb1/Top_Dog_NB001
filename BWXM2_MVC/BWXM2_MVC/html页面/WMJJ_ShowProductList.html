@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>登录/注册</title>
+    <title>限时特价</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -39,70 +39,6 @@
             $(".swipebox").swipebox();
         });
     </script>
-    <style>
-        img {
-            vertical-align: bottom;
-        }
-
-        #parent {
-            /*width: 1200px;
-            height: 700px;
-            background: url() no-repeat center;*/
-            /*background-image: url('images/a1.jpg');*/
-        }
-
-        .zong {
-            width: 1164px;
-            height: 100px;
-            -webkit-animation: change 5s linear infinite;/*5秒（动画总共时间）的动画效果，，，infinite是一直重复播放*/
-        }
-
-        .son {
-            /*margin-top: 90px;*/
-            float: left;
-        }
-
-        #father {
-            margin-left: 205px;
-            width: 212px;
-            height: 617px;
-            overflow: hidden;
-        }
-
-        .zong:hover {
-            animation-play-state: paused;
-        }
-
-        @-webkit-keyframes change {
-            0% {
-                margin-left: 0;
-            }
-
-            30% {
-                margin-left: 0;
-            }
-
-            33% {
-                margin-left: -291px;
-            }
-
-            63% {
-                margin-left: -291px;
-            }
-
-            66% {
-                margin-left: -582px;
-            }
-
-            97% {
-                margin-left: -582px;
-            }
-
-            100% {
-                margin-left: -873px;
-            }
-        }
-    </style>
     <!-- //swipe box js -->
 
 </head>
@@ -152,9 +88,9 @@
                         <nav class="cl-effect-1">
                             <ul class="nav navbar-nav ">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a class="active" href="about.html">About</a></li>
+                                <li><a href="about.html">About</a></li>
                                 <li><a href="codes.html">Short Codes</a></li>
-                                <li><a href="gallery.html">Designs</a></li>
+                                <li><a class="active" href="gallery.html">Designs</a></li>
                                 <li><a href="services.html">Services</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -168,86 +104,109 @@
     </div>
     <!-- //banner -->
     <!-- gallery -->
-    <div class="gallery all_pad wthree">
+    <div class="gallery all_pad">
         <div class="container">
-            <h2 class="title">用户<span></span></h2>
-            <div class="col-md-7 about-left">
-                <!--<div class="about-img">
-        <img class="img-responsive" src="images/a1.jpg" alt="" />
-    </div>
-    <div class="about-img">
-        <img class="img-responsive" src="images/a2.jpg" alt="" />
-    </div>
-    <div class="about-img">
-        <img class="img-responsive" src="images/a3.jpg" alt="" />
-    </div>-->
-                <div id="parent" style="width:212px;height:317px;">
-                    <div id="father">
-                        <div class="zong">
-                            <div id="son1" class="son">
-                                <!--<img src="img/homepage_bg_02_slide_img_01.png">-->
-
-                                <img src="images/a2.jpg" />
+            <h2 class="title">Latest Designs<span></span></h2>
+            <div class="gal_grids">
+                <div class="col-md-6 gal_left wthree">
+                    <a href="images/g6.jpg" class="b-link-stripe b-animate-go  swipebox">
+                        <div class="port-8 effect-2">
+                            <div class="image-box">
+                                <img src="images/g6.jpg" alt="Image-2">
                             </div>
-                            <div id="son2" class="son">
-                                <!--<img src="img/homepage_bg_02_slide_img_02.png">-->
-
-                                <img src="images/a1.jpg" />
-                            </div>
-                            <div id="son3" class="son">
-                                <!--<img src="img/homepage_bg_02_slide_img_03.png">-->
-
-
-                                <img src="images/a3.jpg" />
-                            </div>
-                            <div id="son1" class="son">
-                                <!--<img src="img/homepage_bg_02_slide_img_01.png">-->
-                                <img src="images/a2.jpg" />
+                            <div class="gal-desc">
+                                <h4>Royal Furnish</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
 
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
+                <div class="col-md-6 gal_left">
+                    <a href="images/g7.jpg" class="b-link-stripe b-animate-go  swipebox">
+                        <div class="port-8 effect-2">
+                            <div class="image-box">
+                                <img src="images/g7.jpg" alt="Image-2">
+                            </div>
+                            <div class="gal-desc">
+                                <h4>Royal Furnish</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
 
-
-
-                <div class="clearfix"></div>
-            </div>
-            <div class="col-md-5 about-right">
-                <h4 id="H4_denglu">登录</h4>
-                <h4 id="H4_zhuce">注册</h4>
-                <div class="col-md-5 about-right">
-                    <div id="P_login">
-                        <p id="P_num">手 机 号：</p>
-                        <p id="P_name1">用 户 名：</p>
-                        <input id="Text1" type="text" style="width:200px" />
-                        <p>账户密码：</p>
-                        <input id="txtpwd" type="text" style="width:200px" />
-                        <input id="pwd1" type="password" style="width:200px" />
-                        <div id="yanzhengmakuang" style="width:200px;margin-top:20px">
-                            <input id="txtyanzhengma" type="text" style="width:100px" />
-                            <input id="Button_fasongyanzhengma" type="button" value="获取验证码" style="float:right" />
+                            </div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
+                <div class="col-md-4 gal_left gal-top agile">
+                    <a href="images/g3.jpg" class="b-link-stripe b-animate-go  swipebox">
+                        <div class="port-8 effect-2">
+                            <div class="image-box">
+                                <img src="images/g3.jpg" alt="Image-2">
+                            </div>
+                            <div class="gal-desc">
+                                <h4>Royal Furnish</h4>
+                                <p>Lorem ipsum dolor consectetur adipiscing.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gal_left gal-top">
+                    <a href="images/g4.jpg" class="b-link-stripe b-animate-go  swipebox">
+                        <div class="port-8 effect-2">
+                            <div class="image-box">
+                                <img src="images/g4.jpg" alt="Image-2">
+                            </div>
+                            <div class="gal-desc">
+                                <h4>Royal Furnish</h4>
+                                <p>Lorem ipsum dolor consectetur adipiscing.</p>
 
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gal_left gal-top">
+                    <a href="images/g5.jpg" class="b-link-stripe b-animate-go  swipebox">
+                        <div class="port-8 effect-2">
+                            <div class="image-box">
+                                <img src="images/g5.jpg" alt="Image-2">
+                            </div>
+                            <div class="gal-desc">
+                                <h4>Royal Furnish</h4>
+                                <p>Lorem ipsum dolor consectetur adipiscing.</p>
 
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 gal_left agileits">
+                    <a href="images/g1.jpg" class="b-link-stripe b-animate-go  swipebox">
+                        <div class="port-8 effect-2">
+                            <div class="image-box">
+                                <img src="images/g1.jpg" alt="Image-2">
+                            </div>
+                            <div class="gal-desc">
+                                <h4>Royal Furnish</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 gal_left w3">
+                    <a href="images/g2.jpg" class="b-link-stripe b-animate-go  swipebox">
+                        <div class="port-8 effect-2">
+                            <div class="image-box">
+                                <img src="images/g2.jpg" alt="Image-2">
+                            </div>
+                            <div class="gal-desc">
+                                <h4>Royal Furnish</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
                 <div class="clearfix"></div>
             </div>
-            <div style="padding-top:20px;padding-left:30px;height:30px;float:left">
-
-                <input id="Submit_denglu" type="submit" value="登录" onclick="delu()" />
-                <input id="Button_zhuce" type="button" value="注册" onclick="zhuce()" />
-            </div>
-            <script>
-                $('#H4_zhuce').hide();
-                $('#P_num').hide();
-                $('#P_name').hide();
-                $('#yanzhengmakuang').hide();
-                $('#txtpwd').hide();
-            </script>
-
         </div>
     </div>
     <!-- //gallery -->
@@ -311,27 +270,3 @@
     <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 </body>
 </html>
-
-<script>
-    function delu() {
-        $('#H4_zhuce').hide();
-        $('#P_num').hide();
-        $('#P_name').hide();
-        $('#yanzhengmakuang').hide();
-        $('#txtpwd').hide();
-        $('#pwd1').show();
-        $('#P_name1').show();
-        $('#H4_denglu').show();
-    }
-    function zhuce() {
-        $('#H4_zhuce').show();
-        $('#P_num').show();
-        $('#P_name').show();
-        $('#yanzhengmakuang').show();
-        $('#txtpwd').show();
-        //$('#Submit_denglu').hide();
-        $('#pwd1').hide();
-        $('#P_name1').hide();
-        $('#H4_denglu').hide();
-    }
-</script>
