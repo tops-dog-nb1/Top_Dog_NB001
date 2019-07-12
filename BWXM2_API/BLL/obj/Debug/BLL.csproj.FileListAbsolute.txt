@@ -1,0 +1,13 @@
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\bin\Debug\BLL.dll
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\bin\Debug\BLL.pdb
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\bin\Debug\DAL.dll
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\bin\Debug\Model.dll
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\bin\Debug\Dapper.dll
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\bin\Debug\DAL.pdb
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\bin\Debug\Model.pdb
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\bin\Debug\Dapper.xml
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\obj\Debug\BLL.dll
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\BLL\obj\Debug\BLL.pdb

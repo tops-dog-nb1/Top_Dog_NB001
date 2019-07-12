@@ -1,0 +1,6 @@
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\Model\bin\Debug\Model.dll
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\Model\bin\Debug\Model.pdb
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\Model\obj\Debug\Model.dll
+C:\Users\dell\Desktop\Items\Top_Dog_NB001\BWXM2_API\Model\obj\Debug\Model.pdb
